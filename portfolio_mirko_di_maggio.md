@@ -1,130 +1,108 @@
 # Mirko Di Maggio — AI Engineer
 
-📍 Torino, Italy  
+📍 Torino, Italy (Relocating to Switzerland)  
 📧 [mirko27.mdm@gmail.com](mailto:mirko27.mdm@gmail.com)  
-🔗 [GitHub](https://github.com/MirkoDiMa) • [LinkedIn](https://www.linkedin.com/in/mirko-di-maggio-0b10a9244)  
+🔗 [GitHub](https://github.com/MirkoDiMa) • [LinkedIn](https://linkedin.com)  
 
 ---
 
 ## 👨‍💻 About Me
 
-I’m an **AI Engineer** driven by curiosity and a passion for turning ideas into reality.  
-I specialize in building intelligent systems that don't just work—they **make a difference**.
+I’m an **AI Engineer** driven by curiosity and a passion for turning advanced research into production grade reality.  
+I specialize in building intelligent systems that don't just work, they **make a tangible difference**.
 
-From machine learning models to scalable applications and seamless API integrations, I enjoy **bridging the gap between innovative technology and real-world impact**.  
-Problem-solving is where I thrive, especially when it involves **blending creativity and code** to craft solutions that are both elegant and effective.
+From self-supervised machine learning models to scalable multi-agent applications and hardware-aware edge deployments, I enjoy **bridging the gap between innovative technology and real-world impact**. Problem solving is where I thrive, especially when it involves blending creativity and code to craft architectures that are both elegant and highly effective.
 
 ---
 
 ## 🧠 Core Skills
 
-- Machine Learning · AI API Integration · Natural Language Processing (NLP)
-- Scalable Web Systems · Docker/Kubernetes · SQL & NoSQL Databases
-- Cloud Solutions · Full-stack Rapid Prototyping
+- **AI Architectures & ML:** Self-Supervised Learning (SSL), Multi-Agent Systems, Vision-Language Models, RAG Orchestration, Natural Language Processing (NLP).
+- **Edge AI:** INT8/FP16 Quantization, QSPI/XIP weight storage, Real-time execution (C++/Arduino).
+- **Systems & Deployment:** Scalable Web Systems, API Deployment (FastAPI/Node.js), Docker/Kubernetes, ML Ops.
+- **Databases:** SQL & NoSQL Cloud Solutions.
 
 ---
 
 ## 🛠 Programming Languages & Tools
 
-| Python | React.js | JavaScript | FastAPI | Rust | SQL/NoSQL | HTML/CSS | Firebase | Node.js |
-|--------|----------|------------|---------|------|-----------|----------|----------|---------|
+| Python | C++ | Rust | JavaScript / TypeScript | React.js | FastAPI | Node.js | SQL / NoSQL | Git / WebSockets |
+|--------|-----|------|-------------------------|----------|---------|---------|-------------|------------------|
 
 ---
 
-## 💼 Professional Experience
+## 💼 Professional Experience & Hackathons
 
-### 🏆 HackUPC 2025 — *Software Engineer – Hackathon Participant*  
-**Barcelona** · May 2025  
+### 🇨🇭 Swiss {ai} Weeks - UBS Challenge — *Multi-Agent Systems Developer* **Zurich, Switzerland** · Sept 2025  
+Architected an AI-driven system to automate financial workflows at the ETH AI Center.
+- Developed a dual-classifier architecture using GPT and Apertus-8B (ETH/CSCS).
+- Engineered a 'Disagreement Gate' mechanism with a 'Judge' model for automated quality control and conflict resolution.
+- Collaborated with UBS engineers and ETH researchers to optimize escalation logic.
+
+### ⚡ Italian Tech Week — *Hackathon Participant* **Turin, Italy** · Sept 2025  
+Developed **spAIce**, an Edge AI gesture interface for museums on Arduino Nicla Vision.
+- Designed a dual-model pipeline (DETR detector + CNN classifier) using the Focoos framework.
+- Optimized for real-time execution via INT8 quantization and QSPI/XIP weight storage.
+- Built a Python-WebSocket relay to stream interaction data to a Unity 3D engine.
+
+### 🇺🇸 Silicon Valley Study Tour — *Selected Participant* **San Francisco, USA** · Aug 2025  
+Intensive immersion in the Bay Area innovation ecosystem.
+- Visited tech giants (Google, Apple, LinkedIn, Zoox) and academic hubs (Stanford, UC Berkeley).
+- Engaged in mentorship sessions with industry leaders on AI/ML execution, product management, and startup scaling.
+
+### ✈️ HackUPC 2025 — *Software Engineer* **Barcelona, Spain** · May 2025  
 Ranked **4th out of 150+ international teams** in the Skyscanner challenge.  
-Co-developed **OnlyFly**, an AI-powered home-exchange platform that enables travelers to **swap homes and eliminate accommodation costs**.  
-Built a fully functional MVP in 36h with:
-- Smart AI-based matching
-- Secure payments
-- Sustainability insights
+Co-developed **OnlyFly**, an AI-powered home-exchange platform built in 36 hours.
+- Implemented smart AI-based matching and sustainability insights.
+
+### 🧠 GenAI Hackathon — *AI Developer* **Remote** · Feb 2025  
+Ranked **7th out of 4,500 participants** from 80+ countries.  
+Co-developed **PostGenius**, a GenAI app using RAG pipelines to turn news into multimedia content.
+- Built with FastAPI, OpenAI, Vectara, and RunwayML.
+
+### 💼 Evo Hunt — *Front-End Developer* **Turino, Italy** · Oct 2023 – Dec 2023  
+Worked on back-office apps with **React.js** and **JavaScript**, integrating dynamic data for internal dashboards.
 
 ---
 
-### 🧠 GenAI Hackathon — *AI Developer*  
-**Remote** · February 2025  
-Ranked **7th place** out of **4,500 participants** from 80+ countries.  
-Co-developed **PostGenius**, an AI app that turns news into multimedia content (text, images, memes, video) via RAG pipelines.  
-Built with:
-- FastAPI backend
-- OpenAI, Vectara, RunwayML APIs
-- Integrated social media publishing
+## 📜 Publications (In Progress)
+
+**Self-Supervised Learning for RCC Classification** *Politecnico di Torino* · 2025  
+Authoring a research paper on Renal Cell Carcinoma (RCC) subtype classification. Benchmarked SOTA Self-Supervised Learning architectures on histopathological slides to reduce dependency on annotated data. Optimized feature extraction and patient-level inference strategies.
 
 ---
 
-### 🤖 Hack This Fall — *AI App Developer*  
-**Remote** · 2024  
-Developed a scalable AI app leveraging **Gemini API** for multimedia analysis.  
-- Seamless front-end UI
-- Robust backend API
+## 🚀 Research & Personal Projects
 
----
+### 🔬 [RCC-SSL-Classifiers](https://github.com/Blackhand01/RCC-SSL.git)  
+An end-to-end medical AI pipeline for histopathological cancer subtype classification. 
+- Evaluated multiple independent Self-Supervised Learning objectives (**MoCo v3, DINO v3, I-JEPA, iBOT**).
+- Architected the system to operate these independent objectives on a **generic Vision Transformer (ViT) backbone**, focusing on optimizing attention Layers for computational pathology.
 
-### 💼 Evo Hunt — *Front-End Developer*  
-**Torino** · Oct 2023 – Dec 2023  
-Worked on back-office apps with **React.js** and **JavaScript**.  
-Collaborated on dynamic data integration for internal dashboards.
-
----
-
-### 🧪 Toduba — *Tester & Debugger*  
-**Torino** · Mar 2023 – Sep 2023  
-Conducted testing on iOS/Android ticketing app:  
-- Security · Usability · Functional testing  
-- Provided feedback for performance improvements
-
----
-
-## 🚀 Personal Projects
-
-### 🔍 [RCC-SSL-Classifiers](https://github.com/Blackhand01/wsi-ssrl-rcc_project.git)  
-A modular pipeline for histopathological cancer subtype classification using Self-Supervised Learning (SimCLR, MoCo, Rotation, Jepa).  
-Includes WebDataset preprocessing, feature extraction, classifier training, and patient-level evaluation.
-
-### 🧠 [Affordance_Highlighting_Project](https://github.com/MirkoDiMa/Affordance_Highlighting_Project_2024.git)  
+### 🕶️ [Affordance_Highlighting_Project](https://github.com/MirkoDiMa/Affordance_Highlighting_Project_2024.git)  
 Explored neural field techniques for affordance detection in 3D environments using vision-language models.
-Inspired by the 3D Highlighter paper (CVPR 2023), the project involved:
+- Implemented a CLIP-supervised neural network to highlight regions on 3D meshes based on textual prompts.
+- Adapted the system to point clouds via differentiable rendering.
+- Evaluated the pipeline on the AffordanceNet benchmark using the mIOU metric.
 
-Implementing a CLIP-supervised neural network to highlight regions on 3D meshes based on textual prompts
-Adapting the system to point clouds via differentiable rendering and mesh approximations
-Evaluating the pipeline on the AffordanceNet benchmark using the mIOU metric
+### 📻 [ScreenStreamX](https://github.com/Blackhand01/ScreenStreamX)  
+A multi-platform screen-casting application engineered in **Rust**.
+- Designed to continuously capture screen content and stream it to a set of peers with minimal latency.
 
-Key Topics: neural fields · CLIP · differentiable rendering · affordance detection · 3D point clouds
-
-### 📋 [PostGenius](https://github.com/Blackhand01/PostGenius.git)  
-GenAI Hackathon project that turns news into social media content (memes, images, text, video).  
-Uses RAG with OpenAI, Vectara, and RunwayML APIs for multimodal generation.
-
-### 🏠 [OnlyFly](https://github.com/Blackhand01/HackUPC-Spring2025.git)  
-HackUPC project — an AI-based home-exchange platform that eliminates accommodation costs.  
-Includes AI-powered matching, secure payment flow, and sustainability features.
+### 📋 [PostGenius](https://github.com/Blackhand01/PostGenius.git) & 🏠 [OnlyFly](https://github.com/Blackhand01/HackUPC-Spring2025.git)  
+Hackathon MVPs showcasing rapid full-stack integration of Generative AI, secure payment flows, and responsive front-end design under strict time constraints.
 
 ---
 
 ## 🎓 Education
 
-**Master of Engineering – AI and Data Analytics**  
-*Politecnico di Torino* · 2024–2025
+**Master of Engineering – Artificial Intelligence and Data Analytics** *Politecnico di Torino* · 2024–2025
 
-**Bachelor of Science – Computer Engineering**  
-*Politecnico di Torino* · 2020–2024
+**Bachelor of Science – Computer Engineering** *Politecnico di Torino* · 2020–2024
 
 ---
 
-## 📜 Certifications
+## 🌍 Languages & Certifications
 
-- **IELTS B2** – 2023
-
----
-
-## 🌍 Languages
-
-- **Italian**: C2 (native)  
-- **English**: B2
-
----
-
-
+- **Italian**: C2 (Native)  
+- **English**: B2 (IELTS Certification)
